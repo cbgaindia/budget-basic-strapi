@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "books",
+  "info": {
+    "name": "Book",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string",
+      "required": true
+    },
+    "Chapters": {
+      "collection": "chapters"
+    },
+    "Desc": {
+      "type": "richtext"
+    },
+    "Slug": {
+      "type": "string"
+    }
+  }
+}

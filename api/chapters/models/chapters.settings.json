@@ -1,0 +1,50 @@
+{
+  "kind": "collectionType",
+  "collectionName": "chapters",
+  "info": {
+    "name": "Chapter",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Desc": {
+      "type": "richtext"
+    },
+    "Chapter_No": {
+      "type": "integer"
+    },
+    "Meta": {
+      "type": "component",
+      "repeatable": true,
+      "component": "custom.meta-tags-and-time"
+    },
+    "articles": {
+      "via": "chapter",
+      "collection": "topic"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "Title"
+    },
+    "icon": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "files",
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    }
+  }
+}
