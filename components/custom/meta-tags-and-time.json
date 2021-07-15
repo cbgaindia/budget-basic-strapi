@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_custom_meta_tags_and_times",
+  "info": {
+    "name": "MetaTagsAndTime",
+    "icon": "atlas",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "MetaTags": {
+      "type": "string",
+      "required": true
+    },
+    "AvgReadTime": {
+      "type": "string"
+    }
+  }
+}
