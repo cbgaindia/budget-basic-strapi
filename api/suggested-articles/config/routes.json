@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/suggested-articles",
+      "handler": "suggested-articles.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/suggested-articles",
+      "handler": "suggested-articles.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/suggested-articles",
+      "handler": "suggested-articles.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
