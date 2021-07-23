@@ -15,9 +15,6 @@
     "Title": {
       "type": "string"
     },
-    "Desc": {
-      "type": "richtext"
-    },
     "Chapter_No": {
       "type": "integer"
     },
@@ -45,6 +42,10 @@
       "plugin": "upload",
       "required": true,
       "pluginOptions": {}
+    },
+    "Desc": {
+      "type": "text",
+      "maxLength": 100
     }
   }
 }
