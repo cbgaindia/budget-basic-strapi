@@ -2,7 +2,8 @@
   "kind": "singleType",
   "collectionName": "globals",
   "info": {
-    "name": "Global"
+    "name": "Global",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -32,6 +33,9 @@
       "repeatable": false,
       "component": "shared.seo",
       "required": true
+    },
+    "title": {
+      "type": "string"
     }
   }
 }

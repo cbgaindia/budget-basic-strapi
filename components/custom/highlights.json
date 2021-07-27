@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_custom_highlights",
+  "info": {
+    "name": "highlights",
+    "icon": "align-left",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Text": {
+      "type": "text",
+      "maxLength": 300,
+      "required": true
+    }
+  }
+}
