@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_custom_youtube_links",
+  "info": {
+    "name": "Youtube Links",
+    "icon": "photo-video"
+  },
+  "options": {},
+  "attributes": {
+    "link": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

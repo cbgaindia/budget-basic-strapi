@@ -24,6 +24,11 @@
     },
     "heading": {
       "type": "text"
+    },
+    "youtube": {
+      "type": "component",
+      "repeatable": true,
+      "component": "custom.youtube-links"
     }
   }
 }
