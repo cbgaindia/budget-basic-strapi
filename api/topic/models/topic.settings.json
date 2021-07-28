@@ -48,11 +48,6 @@
       "type": "decimal",
       "min": 1,
       "required": true
-    },
-    "Suggested": {
-      "type": "boolean",
-      "default": false,
-      "required": true
     }
   }
 }
