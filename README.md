@@ -1,4 +1,4 @@
-<h1 align="center">Budget Basics</h1>
+<h1 align="center">Budget Basics Strapi</h1>
 <h3 align="center">Part of the <a href="https://openbudgetsindia.org/">Open Budgets India</a> Project</h3>
 
 ---
