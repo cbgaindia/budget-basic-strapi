@@ -13,7 +13,7 @@
 </p>Budget Basics aims to demystify concepts and processes of Government budgets in India. 
 Built as a documentation platform, it provides the content in easily digestible form. 
 This is the back end of the platform built using Strapi CMS. Front end available <a href="https://github.com/cbgaindia/budget-basic-next">here</a>.
-
+<br/>
 <p align="center">Visit<a href="https://budgetbasics.openbudgetsindia.org/"> Budget Basics</a></p>
 
 - [Features](#features)
