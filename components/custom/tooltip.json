@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_custom_tooltips",
+  "info": {
+    "name": "Tooltip",
+    "icon": "tools"
+  },
+  "options": {},
+  "attributes": {
+    "keyword": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "text"
+    }
+  }
+}

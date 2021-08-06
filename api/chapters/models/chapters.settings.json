@@ -18,11 +18,6 @@
     "Chapter_No": {
       "type": "integer"
     },
-    "Meta": {
-      "type": "component",
-      "repeatable": true,
-      "component": "custom.meta-tags-and-time"
-    },
     "articles": {
       "via": "chapter",
       "collection": "topic"
@@ -46,6 +41,9 @@
     "Desc": {
       "type": "text",
       "maxLength": 100
+    },
+    "tooltips": {
+      "collection": "tooltips"
     }
   }
 }

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/tooltips",
+      "handler": "tooltips.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/tooltips/count",
+      "handler": "tooltips.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/tooltips/:id",
+      "handler": "tooltips.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/tooltips",
+      "handler": "tooltips.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/tooltips/:id",
+      "handler": "tooltips.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/tooltips/:id",
+      "handler": "tooltips.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
