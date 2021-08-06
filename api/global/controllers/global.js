@@ -8,7 +8,7 @@ module.exports = {
    */
 
   async find(ctx) {
-    const entity = await strapi.services.global.find({}, ['articles.chapter']);
+    const entity = await strapi.services.global.find({}, ['suggested_sections.chapter']);
     return sanitizeEntity(entity, { model: strapi.models.global });
   },
 };
