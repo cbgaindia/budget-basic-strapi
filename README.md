@@ -20,7 +20,6 @@ This is the back end of the platform built using Strapi CMS. Front end available
   * [For Developers](#for-developers)
 - [Getting Started](#getting-started)
   * [Postgres](#postgres)
-  * [Environment Variables](#environment-variables)
   * [Start Strapi](#start-strapi)
 - [Meilisearch](#meilisearch)
   * [Meilisearch Instance](#meilisearch-instance)
@@ -38,7 +37,7 @@ This is the back end of the platform built using Strapi CMS. Front end available
 
 - This project uses PostgreSQL as a database but you have multiple options.
 - Front end paradise. Add content fields and create APIs without touching the backend code.
-- Exhaustive documentation was provided by Strapi to all of their features and use-cases.
+- Exhaustive documentation provided by Strapi for all of their features and use-cases.
 
 ## Getting Started
 
@@ -79,31 +78,6 @@ Grant database access to user
 ```bash
   GRANT ALL PRIVILEGES ON DATABASE strapi TO strapi_user;
 ```
-
-### Environment Variables
-
-To run this project, you will need to create a new .env file on the root directory add the following environment variables.
-
-`HOST=0.0.0.0` - start server on local host
-
-`PORT=8001` - you can provide any open port
-
-`STRAPI_DASHBOARD=/dashboard` - slug for the Strapi dashboard
-
-`STRAPI_JWT_SECRET` - you need to provide a key here, eg: `STRAPI_JWT_SECRET=supersecurejwtkey`
-
-`DATABASE_HOST=127.0.0.1`
-
-`DATABASE_PORT=5432`
-
-`DATABASE_NAME=strapi`
-
-`DATABASE_USERNAME=strapi_user`
-
-`DATABASE_PASSWORD=strapi_pass`
-
-`DATABASE_SSL=false`
-
 
 ### Start Strapi
 
