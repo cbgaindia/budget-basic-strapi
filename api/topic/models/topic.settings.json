@@ -19,6 +19,9 @@
     "Content": {
       "type": "richtext"
     },
+    "formattedContent": {
+      "type": "text"
+    },
     "Images": {
       "collection": "file",
       "via": "related",
