@@ -1,8 +1,8 @@
 module.exports = {
   lifecycles: {
-    beforeCreate(data) {
+    async beforeCreate(data) {
       console.log(data);
-      data.Title = 'Some fixed name';
+      data.Title = 'Some fixed name';    
     },
   },
 };
