@@ -58,6 +58,7 @@ Start Postgres
 
 ```bash
   sudo service postgresql start
+  sudo -u postgres -i
   psql postgres
 ```
 
