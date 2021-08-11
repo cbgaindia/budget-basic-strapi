@@ -9,7 +9,7 @@
   "attributes": {
     "Text": {
       "type": "text",
-      "maxLength": 300,
+      "maxLength": 250,
       "required": true
     }
   }
