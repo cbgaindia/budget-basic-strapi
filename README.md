@@ -125,6 +125,23 @@ Install dependencies
   npm install
 ```
 
+Environmental Variables
+
+```bash
+Create .env file and paste:
+
+HOST=0.0.0.0
+PORT=8001
+STRAPI_DASHBOARD=/dashboard
+STRAPI_JWT_SECRET`=supersecurejwtkey
+DATABASE_HOST=127.0.0.1
+DATABASE_PORT=5432
+DATABASE_NAME=strapi
+DATABASE_USERNAME=strapi_user
+DATABASE_PASSWORD=strapi_pass
+DATABASE_SSL=false
+```
+
 Build and start the server in development
 
 ```bash
