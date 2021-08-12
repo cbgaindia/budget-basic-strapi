@@ -7,10 +7,13 @@ function extractContent(s) {
   const replacer = new RegExp(search, "g");
   formattedContent = s.replace(replacer, " </");
 
+  // .replace(/\s\s+/g, ' ') - incase of multiple whitespaces, change them to single whitespace
+
   const dom = new JSDOM(`<!DOCTYPE html><span>${formattedContent}</span>`);
+  const span = dom.window.document.querySelector("span")
   return (
-    dom.window.document.querySelector("span").textContent ||
-    dom.window.document.querySelector("span").innerText
+    span.textContent.replace(/\s\s+/g, ' ') ||
+    span.innerText.replace(/\s\s+/g, ' ')
   );
 }
 

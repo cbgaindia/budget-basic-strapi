@@ -1,9 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "articles",
+  "collectionName": "sections",
   "info": {
-    "name": "Old_Section",
-    "description": ""
+    "name": "Sections"
   },
   "options": {
     "increments": true,
@@ -21,23 +20,6 @@
     },
     "formattedContent": {
       "type": "text"
-    },
-    "Images": {
-      "collection": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
-      "plugin": "upload",
-      "required": false,
-      "pluginOptions": {}
-    },
-    "Meta": {
-      "type": "component",
-      "repeatable": true,
-      "component": "custom.meta-tags-and-time"
     },
     "chapter": {
       "via": "articles",
