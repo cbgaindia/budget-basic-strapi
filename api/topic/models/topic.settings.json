@@ -39,10 +39,6 @@
       "repeatable": true,
       "component": "custom.meta-tags-and-time"
     },
-    "chapter": {
-      "via": "articles",
-      "model": "chapters"
-    },
     "slug": {
       "type": "uid",
       "targetField": "Title"

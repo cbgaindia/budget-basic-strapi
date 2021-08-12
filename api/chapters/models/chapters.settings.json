@@ -18,10 +18,6 @@
     "Chapter_No": {
       "type": "integer"
     },
-    "articles": {
-      "via": "chapter",
-      "collection": "topic"
-    },
     "slug": {
       "type": "uid",
       "targetField": "Title"
