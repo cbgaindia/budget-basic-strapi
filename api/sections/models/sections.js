@@ -2,10 +2,11 @@ const jsdom = require("jsdom");
 const { JSDOM } = jsdom;
 
 function extractContent(s) {
+  console.log(s);
   // add spacing before tag ends
   const search = "</";
   const replacer = new RegExp(search, "g");
-  formattedContent = s.replace(replacer, " </");
+  const formattedContent = s.replace(replacer, " </");
 
   // .replace(/\s\s+/g, ' ') - incase of multiple whitespaces, change them to single whitespace
 
@@ -20,6 +21,9 @@ function extractContent(s) {
 module.exports = {
   lifecycles: {
     async beforeCreate(data) {
+      data.formattedContent = extractContent(data.Content);
+    },
+    async beforeUpdate(params, data) {
       data.formattedContent = extractContent(data.Content);
     },
   },
