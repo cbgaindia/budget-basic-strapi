@@ -24,7 +24,8 @@ module.exports = {
       data.formattedContent = extractContent(data.Content);
     },
     async beforeUpdate(params, data) {
-      data.formattedContent = extractContent(data.Content);
+      if(data.Content)
+        data.formattedContent = extractContent(data.Content);
     },
   },
 };
