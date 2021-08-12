@@ -22,7 +22,7 @@
       "type": "text"
     },
     "chapter": {
-      "via": "articles",
+      "via": "sections",
       "model": "chapters"
     },
     "slug": {
