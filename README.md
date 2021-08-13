@@ -115,6 +115,8 @@ DATABASE_USERNAME=strapi_user
 DATABASE_PASSWORD=strapi_pass
 DATABASE_SSL=false
 ```
+|💥 Please use more secure keys   |
+|----------------------------------|
 
 Build and start the server in development
 
