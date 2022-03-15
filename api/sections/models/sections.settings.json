@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "sections",
   "info": {
-    "name": "Sections"
+    "name": "Sections",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -33,6 +34,15 @@
       "type": "decimal",
       "min": 1,
       "required": true
+    },
+    "TitleHindi": {
+      "type": "string"
+    },
+    "ContentHindi": {
+      "type": "richtext"
+    },
+    "formattedContentHindi": {
+      "type": "text"
     }
   }
 }

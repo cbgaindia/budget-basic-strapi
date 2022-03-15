@@ -19,8 +19,8 @@
       "type": "integer"
     },
     "sections": {
-      "collection": "sections",
-      "via": "chapter"
+      "via": "chapter",
+      "collection": "sections"
     },
     "slug": {
       "type": "uid",
@@ -60,6 +60,12 @@
     "book": {
       "via": "chapters",
       "model": "book"
+    },
+    "TitleHindi": {
+      "type": "string"
+    },
+    "DescHindi": {
+      "type": "text"
     }
   }
 }

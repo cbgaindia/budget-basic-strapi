@@ -13,6 +13,12 @@
     },
     "AvgReadTime": {
       "type": "string"
+    },
+    "MetaTagsHindi": {
+      "type": "string"
+    },
+    "AvgReadTimeHindi": {
+      "type": "string"
     }
   }
 }

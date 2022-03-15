@@ -2,7 +2,8 @@
   "collectionName": "components_custom_tooltips",
   "info": {
     "name": "Tooltip",
-    "icon": "tools"
+    "icon": "tools",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -11,6 +12,12 @@
     },
     "desc": {
       "type": "text"
+    },
+    "keywordHindi": {
+      "type": "string"
+    },
+    "descHindi": {
+      "type": "string"
     }
   }
 }

@@ -29,6 +29,9 @@
       "type": "component",
       "repeatable": true,
       "component": "custom.youtube-links"
+    },
+    "headingHindi": {
+      "type": "string"
     }
   }
 }
