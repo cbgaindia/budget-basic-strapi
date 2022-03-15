@@ -26,12 +26,10 @@
       "pluginOptions": {}
     },
     "metaTitleHindi": {
-      "type": "string",
-      "required": true
+      "type": "string"
     },
     "metaDescriptionHindi": {
-      "type": "string",
-      "required": true
+      "type": "string"
     }
   }
 }

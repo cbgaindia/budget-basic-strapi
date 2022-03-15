@@ -31,15 +31,13 @@
     "defaultSeo": {
       "type": "component",
       "repeatable": false,
-      "component": "shared.seo",
-      "required": true
+      "component": "shared.seo"
     },
     "title": {
       "type": "string"
     },
     "siteNameHindi": {
-      "type": "string",
-      "required": true
+      "type": "string"
     },
     "titleHindi": {
       "type": "string"
