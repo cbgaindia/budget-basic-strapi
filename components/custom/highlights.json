@@ -11,6 +11,9 @@
       "type": "text",
       "maxLength": 250,
       "required": true
+    },
+    "Link": {
+      "type": "string"
     }
   }
 }

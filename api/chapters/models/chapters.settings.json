@@ -44,6 +44,22 @@
     },
     "tooltips": {
       "collection": "tooltips"
+    },
+    "chapter_head_image": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "book": {
+      "via": "chapters",
+      "model": "book"
     }
   }
 }

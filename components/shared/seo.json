@@ -2,7 +2,8 @@
   "collectionName": "components_shared_seos",
   "info": {
     "name": "Seo",
-    "icon": "laptop-code"
+    "icon": "laptop-code",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -23,6 +24,14 @@
       "plugin": "upload",
       "required": false,
       "pluginOptions": {}
+    },
+    "metaTitleHindi": {
+      "type": "string",
+      "required": true
+    },
+    "metaDescriptionHindi": {
+      "type": "string",
+      "required": true
     }
   }
 }

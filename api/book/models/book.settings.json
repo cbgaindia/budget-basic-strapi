@@ -16,14 +16,15 @@
       "type": "string",
       "required": true
     },
-    "Chapters": {
-      "collection": "chapters"
-    },
     "Desc": {
       "type": "richtext"
     },
     "Slug": {
       "type": "string"
+    },
+    "chapters": {
+      "via": "book",
+      "collection": "chapters"
     }
   }
 }

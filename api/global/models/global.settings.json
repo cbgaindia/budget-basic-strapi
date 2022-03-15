@@ -37,8 +37,12 @@
     "title": {
       "type": "string"
     },
-    "suggested_sections": {
-      "collection": "topic"
+    "siteNameHindi": {
+      "type": "string",
+      "required": true
+    },
+    "titleHindi": {
+      "type": "string"
     }
   }
 }
