@@ -18,13 +18,15 @@ function extractContent(s) {
 module.exports = {
   lifecycles: {
     async beforeCreate(data) {
-      data.formattedContent = extractContent(data.Content);
-      data.formattedContentHindi = extractContent(data.Content);
-    },
-    async beforeUpdate(params, data) {
-      if(data.Content)
+      if (data.Content) {
         data.formattedContent = extractContent(data.Content);
         data.formattedContentHindi = extractContent(data.Content);
+      }
+    },
+    async beforeUpdate(params, data) {
+      if (data.Content)
+        data.formattedContent = extractContent(data.Content);
+      data.formattedContentHindi = extractContent(data.Content);
     },
   },
 };
