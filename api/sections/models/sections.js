@@ -24,9 +24,10 @@ module.exports = {
       }
     },
     async beforeUpdate(params, data) {
-      if (data.Content)
+      if (data.Content) {
         data.formattedContent = extractContent(data.Content);
-      data.formattedContentHindi = extractContent(data.Content);
+        data.formattedContentHindi = extractContent(data.Content);
+      }
     },
   },
 };
