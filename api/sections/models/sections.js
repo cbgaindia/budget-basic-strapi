@@ -20,13 +20,13 @@ module.exports = {
     async beforeCreate(data) {
       if (data.Content) {
         data.formattedContent = extractContent(data.Content);
-        data.formattedContentHindi = extractContent(data.Content);
+        data.formattedContentHindi = extractContent(data.ContentHindi);
       }
     },
     async beforeUpdate(params, data) {
       if (data.Content) {
         data.formattedContent = extractContent(data.Content);
-        data.formattedContentHindi = extractContent(data.Content);
+        data.formattedContentHindi = extractContent(data.ContentHindi);
       }
     },
   },
